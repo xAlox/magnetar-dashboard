@@ -63,6 +63,7 @@ function limpiarTexto(texto: string | null) {
     "AndrÃ©s": "Andrés",
     "OrÃ­genes": "Orígenes",
     "CarbÃ³n": "Carbón",
+    "COSTERA": "COASTAL",
   };
 
   let out = texto;
@@ -594,6 +595,46 @@ export default function HomePage() {
             }}
           >
             Ver tecnologías
+          </Link>
+
+          <Link
+            href="/coastal"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: 8,
+              background: "#0F766E",
+              color: "white",
+              textDecoration: "none",
+              padding: "12px 16px",
+              borderRadius: 14,
+              fontWeight: 700,
+              minHeight: 46,
+              whiteSpace: "nowrap",
+            }}
+          >
+            Coastal
+          </Link>
+
+          <Link
+            href="/marti"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: 8,
+              background: "#7C3AED",
+              color: "white",
+              textDecoration: "none",
+              padding: "12px 16px",
+              borderRadius: 14,
+              fontWeight: 700,
+              minHeight: 46,
+              whiteSpace: "nowrap",
+            }}
+          >
+            Martí
           </Link>
         </div>
       </section>
